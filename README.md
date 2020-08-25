@@ -1,22 +1,9 @@
-# Predicting Disaster Tweets
+# [Visualizing an Italian Academic Research] (https://masterbigdata.it/project-files/2018-2019/ricerca/index.html)
 
 
-Build a machine learning model that predicts which Tweets are about real disasters and which one’s aren’t. 
+Using Plotly library for interactive data visualization in Python of Italian Academic Research.
 
-The dataset has been acquired from the Kaggel Competition [Real or Not? NLP with Disaster Tweets](https://www.kaggle.com/c/nlp-getting-started).
+The aim of this project is to analyze the scientific research papers in CS and Neuroscience by Italian researchers during 2004-2018.
 
-Each sample in the train and test set has the following information:
-
-    The text of a tweet
-    A keyword from that tweet (although this may be blank)
-    The location the tweet was sent from (may also be blank)
-
-
-Correct order of the notebooks:
-
-    text_cleaning.ipynb
-    feature_extraction.ipynb
-    models_tfidf.ipynb
-    models_tabular_data.ipynb
-    eda_feature_selection.ipynb
-    models_tabular_data_feature_selection.ipynb
+Dataset: relational databases with data and metadata taken from Scopus via API.
+Tools: SQL Lite, Microsoft SQL Server, various Python packages, R.
